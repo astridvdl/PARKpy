@@ -1,0 +1,19 @@
+﻿Family and Type,Insulation Type,Insulation Thickness,Size,Count,Area,Surface Area,Taper Type,Bend Angle,Bend Nominal Radius Scale
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,450x550-450x550,4,0.238 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,850x550-850x550,4,0.329 m²,0.000 m²,,,
+M_Rectangular Wye - Curved - Transition: Standard,Duct Wrap,25 mm,950x500-500x500-500x500,1,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x350-200x350,2,0.000 m²,0.518 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x200-350x200,2,0.000 m²,0.907 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,450x550-450x550,4,0.000 m²,4.241 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x500-500x500,12,0.000 m²,14.137 m²,,90.00°,0.75
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,450x550,4,0.000 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,950x500-500x500,9,15.122 m²,0.000 m²,Flat on Top and Bottom,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x950-500x950,1,0.000 m²,1.708 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,850x550-850x550,4,0.000 m²,11.215 m²,,90.00°,0.75
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,500x950-500x950,5,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,800x1200-800x1200,1,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,1000x1000-1000x1000,1,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Takeoff: Standard,Duct Wrap,25 mm,800x500-800x500,16,2.367 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,850x550-450x550,4,6.578 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,950x500-500x500,1,1.680 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 900 mm,Duct Wrap,25 mm,1700x550-850x550,4,13.736 m²,0.000 m²,,,
