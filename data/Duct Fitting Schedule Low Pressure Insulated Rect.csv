@@ -1,0 +1,205 @@
+﻿Family and Type,Insulation Type,Insulation Thickness,Size,Count,Area,Surface Area,Taper Type,Bend Angle,Bend Nominal Radius Scale
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,200x200-200x200,3,0.076 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,250x250-250x250,24,0.746 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,300x250-300x250,33,1.119 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,300x300-300x300,7,0.257 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,400x250-400x250,24,0.951 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,400x300-400x300,23,0.977 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,400x350-400x350,3,0.136 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,450x250-450x250,3,0.127 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,500x250-500x250,12,0.544 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,500x300-500x300,1,0.048 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,500x350-500x350,8,0.408 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,550x400-550x400,20,1.134 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,650x300-650x300,2,0.113 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,650x350-650x350,6,0.357 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,700x400-700x400,12,0.783 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,700x450-700x450,3,0.204 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,750x500-750x500,2,0.148 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,800x400-800x400,20,1.419 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,800x500-800x500,3,0.230 m²,0.000 m²,,,
+M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,900x300-900x300,5,0.355 m²,0.000 m²,,,
+M_Rectangular Wye - Curved - Transition: Standard,Duct Wrap,25 mm,350x850-350x850-350x850,1,0.000 m²,0.000 m²,,,
+M_Rectangular Wye - Curved - Transition: Standard,Duct Wrap,25 mm,500x250-400x250-400x250,1,0.000 m²,0.000 m²,,,
+M_Rectangular Wye - Curved - Transition: Standard,Duct Wrap,25 mm,650x350-300x350-400x350,1,0.000 m²,0.000 m²,,,
+M_Rectangular Wye - Dovetail: Standard,Duct Wrap,25 mm,1700x350-800x350-800x350,2,0.000 m²,0.000 m²,,,
+M_Rectangular Wye - Dovetail: Standard,Duct Wrap,25 mm,1700x400-800x400-800x400,2,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,150x300-150x300,6,0.000 m²,0.318 m²,,30.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,150x550-150x550,2,0.000 m²,0.247 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x200-200x200,4,0.000 m²,0.377 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x250-200x250,4,0.000 m²,0.283 m²,,30.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x250-200x250,3,0.000 m²,0.636 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x300-200x300,1,0.000 m²,0.118 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x300-200x300,2,0.000 m²,0.471 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x400-200x400,4,0.000 m²,0.565 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x450-200x450,8,0.000 m²,1.225 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x450-200x450,1,0.000 m²,0.306 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x500-200x500,2,0.000 m²,0.660 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x200-250x200,2,0.000 m²,0.530 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x250-250x250,17,0.000 m²,5.007 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x300-250x300,6,0.000 m²,0.972 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x300-250x300,2,0.000 m²,0.648 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x450-250x450,4,0.000 m²,0.550 m²,,30.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x450-250x450,2,0.000 m²,0.412 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x450-250x450,2,0.000 m²,0.825 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x550-250x550,1,0.000 m²,0.471 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x150-300x150,1,0.000 m²,0.318 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x200-300x200,1,0.000 m²,0.177 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x250-300x250,2,0.000 m²,0.778 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x300-300x300,2,0.000 m²,0.848 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x350-300x350,2,0.000 m²,0.919 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x650-300x650,6,0.000 m²,2.015 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x200-350x200,4,0.000 m²,1.814 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x300-350x300,2,0.000 m²,0.536 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x350-350x350,10,0.000 m²,5.773 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x400-350x400,2,0.000 m²,1.237 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x650-350x650,3,0.000 m²,2.474 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x700-350x700,4,0.000 m²,3.464 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x150-400x150,1,0.000 m²,0.518 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x200-400x200,8,0.000 m²,4.524 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x250-400x250,4,0.000 m²,2.450 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x300-400x300,2,0.000 m²,0.660 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x300-400x300,2,0.000 m²,1.319 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x400-400x400,1,0.000 m²,0.754 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x500-400x500,3,0.000 m²,2.545 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,450x200-450x200,1,0.000 m²,0.689 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,450x250-450x250,2,0.000 m²,1.484 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x150-500x150,1,0.000 m²,0.766 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x250-500x250,3,0.000 m²,2.651 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x300-500x300,1,0.000 m²,0.942 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x350-500x350,3,0.000 m²,3.004 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x400-500x400,3,0.000 m²,3.181 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,550x150-550x150,1,0.000 m²,0.907 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,550x250-550x250,1,0.000 m²,1.037 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,550x400-550x400,4,0.000 m²,4.924 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,650x350-650x350,3,0.000 m²,4.595 m²,,90.00°,0.75
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,250x250-250x250,3,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,300x150-300x150,2,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,300x200-300x200,1,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,300x250-300x250,1,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,300x300-300x300,6,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,300x350-300x350,1,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,400x200-400x200,1,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,450x200-450x200,4,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,450x250-450x250,3,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,500x250-500x250,3,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,550x400-550x400,4,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Rectangular Shoe Branch: Standard,Duct Wrap,25 mm,650x300-650x300,4,0.000 m²,0.000 m²,,,
+M-H Flange Rectangular Takeoff: Standard,Duct Wrap,25 mm,200x200-200x200,1,0.049 m²,0.000 m²,,,
+M-H Flange Rectangular Takeoff: Standard,Duct Wrap,25 mm,400x150-400x150,2,0.131 m²,0.000 m²,,,
+M-H Flange Rectangular Takeoff: Standard,Duct Wrap,25 mm,750x150-750x150,2,0.208 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,200x400,1,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,250x250,6,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,250x350,1,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,300x350,5,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,400x200,1,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,400x300,2,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,500x300,1,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,500x350,3,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,650x350,1,0.000 m²,0.000 m²,,,
+M_Rectangular Endcap: Standard,Duct Wrap,25 mm,700x350,4,0.000 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,150x300-300x150,1,0.287 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,200x200-200x150,1,0.233 m²,0.000 m²,Flat on Right and Left,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,200x300-300x200,1,0.341 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,250x200-200x200,1,0.276 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,250x200-300x150,1,0.296 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,250x250-200x200,1,0.300 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,250x250-200x250,1,0.320 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,250x300-200x300,1,0.364 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,250x300-300x250,1,0.396 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,250x300-450x150,1,0.418 m²,0.000 m²,Flat on Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,300x250-250x250,2,0.745 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,300x250-400x150,1,0.394 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,300x300-250x250,1,0.400 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,300x300-250x300,5,2.115 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,300x350-300x250,2,0.909 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,300x400-200x400,1,0.490 m²,0.000 m²,"Flat on Top, Bottom, Right",,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,350x300-250x300,1,0.453 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,350x350-350x200,2,0.983 m²,0.000 m²,"Flat on Right, Left, Bottom",,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x150-300x200,1,0.359 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x200-300x200,1,0.392 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x200-300x250,1,0.419 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x200-400x150,1,0.404 m²,0.000 m²,Flat on Right and Left,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x250-300x250,3,1.354 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x250-400x200,1,0.470 m²,0.000 m²,"Flat on Right, Left, Top",,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x300-300x300,1,0.511 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x300-400x150,1,0.483 m²,0.000 m²,"Flat on Right, Left, Bottom",,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x350-250x200,1,0.471 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x350-250x350,1,0.540 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x350-800x150,1,0.679 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x400-300x400,1,0.632 m²,0.000 m²,"Flat on Top, Bottom, Right",,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,450x200-400x200,5,2.301 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,450x250-250x250,3,1.368 m²,0.000 m²,"Flat on Top, Bottom, Left",,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,450x250-300x250,1,0.479 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,450x250-350x250,1,0.504 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,500x200-400x200,1,0.484 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,500x250-400x250,3,1.668 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,500x250-800x150,1,0.655 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,500x350-300x350,1,0.639 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,500x400-300x350,1,0.679 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,500x500-400x500,1,0.918 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,550x150-400x200,1,0.465 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,550x250-500x200,2,1.190 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,600x350-550x150,1,0.723 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,600x350-650x300,3,2.635 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,650x300-500x300,1,0.776 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,300x200-250x200,8,3.476 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,350x200-300x200,8,3.964 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,350x300-500x150,1,0.644 m²,0.000 m²,Flat on Top,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,400x200-350x200,8,4.452 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,400x300-250x250,3,1.792 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,500x300-250x300,1,0.700 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,500x300-400x300,1,0.808 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,500x350-300x350,1,0.809 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,550x150-400x200,1,0.633 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,600x250-400x200,1,0.761 m²,0.000 m²,Flat on Right,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,600x350-400x200,2,1.730 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,600x350-550x150,1,0.905 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,600x350-650x300,1,1.126 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,650x350-400x300,3,2.918 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,700x400-550x400,4,5.081 m²,0.000 m²,"Flat on Top, Bottom, Right",,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,700x450-650x300,1,1.314 m²,0.000 m²,Flat on Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,750x500-700x450,1,1.613 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,800x400-550x400,4,5.439 m²,0.000 m²,"Flat on Top, Bottom, Right",,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,800x400-700x400,4,5.936 m²,0.000 m²,"Flat on Top, Bottom, Right",,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,850x200-600x250,1,1.045 m²,0.000 m²,Flat on Right,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,900x300-400x350,1,1.148 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-500x300,1,1.251 m²,0.000 m²,Flat on Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-500x350,3,3.854 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-650x350,1,1.399 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1330x232-500x250,1,1.337 m²,0.000 m²,Equal Taper,,
+M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,200x300-200x300,2,0.120 m²,0.000 m²,,,
+M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,200x400-200x400,2,0.142 m²,0.000 m²,,,
+M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,250x250-250x250,6,0.360 m²,0.000 m²,,,
+M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,250x400-250x400,3,0.229 m²,0.000 m²,,,
+M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,250x500-250x500,2,0.175 m²,0.000 m²,,,
+M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,300x400-300x400,1,0.082 m²,0.000 m²,,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,750x500-750x500,1,0.000 m²,2.209 m²,,90.00°,0.75
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,800x500-750x500,1,1.767 m²,0.000 m²,Flat on Top and Bottom,,
+Grille Plenum Box Rectangular Duct With Split: Grille Plenum Box Rectangular Duct With Split,Duct Wrap,25 mm,1150x150-400x150-750x150,1,2.309 m²,0.000 m²,,,
+Grille Plenum Box Rectangular Duct With Split: Grille Plenum Box Rectangular Duct With Split,Duct Wrap,25 mm,1150x150-750x150-400x150,1,1.644 m²,0.000 m²,,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,150x800-150x800,2,0.000 m²,0.336 m²,,45.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,150x800-150x800,1,0.000 m²,0.336 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x900-300x900,1,0.000 m²,0.848 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x800-350x800,1,0.000 m²,0.948 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x850-500x850,1,0.000 m²,1.590 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,800x350-800x350,1,0.000 m²,2.168 m²,,90.00°,0.75
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,800x500-800x500,1,0.000 m²,2.450 m²,,90.00°,0.75
+M-H Flange Rectangular Takeoff: Standard,Duct Wrap,25 mm,1150x150-1150x150,5,0.740 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,400x350-800x150,1,0.679 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,800x350-850x200,1,1.008 m²,0.000 m²,Flat on Top and Left,,
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,800x400-800x350,4,4.856 m²,0.000 m²,"Flat on Right, Left, Bottom",,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,850x350-300x350,1,1.099 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,850x350-650x350,1,1.367 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,850x500-800x500,1,1.865 m²,0.000 m²,Flat on Top and Bottom,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-400x250,1,1.131 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-400x300,2,2.359 m²,0.000 m²,,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-400x400,1,1.262 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-500x150,1,1.106 m²,0.000 m²,Flat on Top,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-500x250,1,1.197 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-500x300,2,2.479 m²,0.000 m²,Equal Taper,,
+M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-500x350,3,3.894 m²,0.000 m²,,,
+Plenum_Box_Supply Unit_Rect Ducts: Plenum_Box_Supply Unit_Rect Ducts,Duct Wrap,25 mm,1162x216-350x250-450x150,1,1.948 m²,0.000 m²,,,
+Plenum_Box_Supply Unit_Rect Ducts: Plenum_Box_Supply Unit_Rect Ducts,Duct Wrap,25 mm,1162x216-400x300-400x250,1,1.921 m²,0.000 m²,,,
+M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x1700-400x1700,4,0.000 m²,7.917 m²,,90.00°,0.75
+M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,1700x400-1700x350,2,4.879 m²,0.000 m²,"Flat on Right, Left, Bottom",,
