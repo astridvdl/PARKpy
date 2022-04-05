@@ -27,13 +27,18 @@ class Category:
         self.df = df
         self.df['Min_Width'] = self.df[['Size_1_W', 'Size_2_W', "Size_3_W"]].min(axis=1)
         return self.df
-        
+
+    def min_height(self, df):
+        self.df = df
+        self.df['Min_Height'] = self.df[['Size_1_H', 'Size_2_H', "Size_3_H"]].min(axis=1)
+        return self.df    
 
 if __name__ == "__main__":
     df1_obj = Category("../data/Duct Fitting Schedule Low Pressure Insulated Rect.csv")
     df1 = df1_obj.dataframe()
     df1 = df1_obj.split_size(df1)
     df1 = df1_obj.min_width(df1)
+    df1 = df1_obj.min_height(df1)
     print(df1)
-    df1.to_csv("Preston2.csv",index = False)
+    df1.to_csv("test_out.csv",index = False)
     
