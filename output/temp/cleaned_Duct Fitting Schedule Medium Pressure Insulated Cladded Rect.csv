@@ -1,0 +1,18 @@
+Insulation Type,Insulation Thickness,Size,Count,Area,Surface Area,Taper Type,Bend Angle,Bend Nominal Radius Scale
+Duct Wrap,25 mm,200x350-200x350,1.0,0.000 m²,0.259 m²,,90.00°,0.75
+Duct Wrap,25 mm,350x200-350x200,1.0,0.000 m²,0.454 m²,,90.00°,0.75
+Duct Wrap,25 mm,400x300-200x350,1.0,0.477 m²,0.000 m²,Equal Taper,,
+Duct Wrap,25 mm,400x300-350x200,1.0,0.481 m²,0.000 m²,Equal Taper,,
+Duct Wrap,25 mm,400x300-386x290,1.0,0.554 m²,0.000 m²,Equal Taper,,
+Duct Wrap,25 mm,700x700-700x700,10.0,0.000 m²,23.091 m²,,90.00°,0.75
+Duct Wrap,25 mm,700x700-500x950,3.0,5.243 m²,0.000 m²,Equal Taper,,
+Duct Wrap,25 mm,700x700-500x950,3.0,6.119 m²,0.000 m²,Equal Taper,,
+Duct Wrap,25 mm,1070x745-700x700,5.0,13.014 m²,0.000 m²,Equal Taper,,
+Duct Wrap,25 mm,500x950-500x950,1.0,0.000 m²,1.708 m²,,90.00°,0.75
+Duct Wrap,25 mm,800x1200-800x1200,1.0,0.000 m²,3.770 m²,,90.00°,0.75
+Duct Wrap,25 mm,950x500-950x500,5.0,0.000 m²,16.228 m²,,90.00°,0.75
+Duct Wrap,25 mm,1000x1000-1000x1000,3.0,0.000 m²,14.137 m²,,90.00°,0.75
+Duct Wrap,25 mm,1200x800-1200x800,1.0,0.000 m²,5.655 m²,,90.00°,0.75
+Duct Wrap,25 mm,1070x745-700x700,1.0,2.603 m²,0.000 m²,Equal Taper,,
+Duct Wrap,25 mm,1000x1000-1200x800,1.0,4.141 m²,0.000 m²,Equal Taper,,
+Duct Wrap,25 mm,1200x1200-1000x1000,2.0,9.732 m²,0.000 m²,Equal Taper,,
