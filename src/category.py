@@ -38,7 +38,6 @@ class Category:
         self.df = df
         self.df['Max_W_H'] = self.df[['Min_Width','Min_Height']].max(axis=1)
         self.df['Sum_W_H'] = self.df['Min_Width'] + self.df['Min_Height']
-        
         self.conditions = [
             (self.df['Max_W_H'] < 750) & (self.df['Sum_W_H'] <= 1150),
             (self.df['Max_W_H'] < 750) & (self.df['Sum_W_H'] > 1150),
@@ -46,11 +45,14 @@ class Category:
             (self.df['Max_W_H'] >= 1350) & (self.df['Max_W_H'] < 2100),
             (self.df['Max_W_H'] >= 2100)
         ]
-
         self.category = [1, 2, 3, 4, 5]
-
         self.df['Category'] = np.select(self.conditions, self.category)
 
+        self._col = ['Size_1', 'Size_2', 'Size_3', 
+            'Size_1_W', 'Size_1_H', 'Size_2_W', 'Size_2_H', 'Size_3_W', 'Size_3_H', 
+            'Min_Width', 'Min_Height', 'Max_W_H', 'Sum_W_H'
+        ]
+        self.df.drop(self._col, axis=1, inplace=True)
         return self.df
 
 if __name__ == "__main__":
