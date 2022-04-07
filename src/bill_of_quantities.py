@@ -1,4 +1,5 @@
 import os
+from unicodedata import category
 import pandas as pd
 import numpy as np
 
@@ -15,21 +16,26 @@ class BillOfQuantities:
         for file in os.listdir(data):
             if file.endswith(".csv"):
                 file_path = os.path.join(data,file)
-                df = pd.read_csv(file_path, index_col=0)
+                df = pd.read_csv(file_path)
                 df = df[df["Size"].notnull()]         
                 df['File'] = file
                 self.content_list.append(df)
+
+                print(df)
         self.content = pd.concat(self.content_list)
 
     def create(self):
+        all_boqs = []
         groups = self.content.groupby(["File"])
         for file_name, group in groups:
             print(file_name)
-            category_groups = group.groupby(["Category"]).sum()
-            print(category_groups)
-
-                
-
+            print(groups.all())
+            category_grouped = group.groupby(["Category"]).sum()
+            category_grouped["Copy"] = 1
+            print(category_grouped)
+            all_boqs.append(category_grouped)
+            #category_grouped["Rate"] = category_grouped["Category"].apply(lambda x:self.categories[x])
+            category_grouped.to_csv(f"Test_BOQ_{file_name}")
 
     def interpret_data(self):
         self.split_size()
@@ -37,13 +43,19 @@ class BillOfQuantities:
         self.min_height()
         self.collate_area()
         self.add_category()
-        #self.cleanup_data()
+        print(self.content)
+        self.cleanup_data()
 
 
     def cleanup_data(self):
         self.content = self.content.drop([
+            "Bend Angle",
+            "Insulation Type",
             "Insulation Thickness",	
-            "Size", 
+            "Size",
+            "Count",
+            "Area",
+            "Surface Area", 
             "Taper Type",
             "Bend Nominal Radius Scale",
             "Length",
@@ -60,7 +72,7 @@ class BillOfQuantities:
             "Min_Height",
             "Max_W_H",
             "Sum_W_H"], axis = 1)
-
+     
     def collate_area(self):
         self.content["Area"] = self.content["Area"].apply(lambda x: x.replace(" m²", "")
                                 if isinstance(x, str) else x).astype(float)
@@ -94,6 +106,7 @@ class BillOfQuantities:
             (self.content['Max_W_H'] >= 2100)
         ]
         self.content['Category'] = np.select(self.conditions, self.categories)
+        #self.content['Rate'] = np.select(self.conditions, self.categories.values())
 
 
     def calc_quantities(self):
