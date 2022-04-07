@@ -1,12 +1,8 @@
-from enum import Enum
-
-class Category(Enum):
-    ONE = 1
-    TWO = 2.5
-    THREE =  4
-    FOUR = 5
-    FIVE = 6
+class Category:
+    def __init__(self, id, rate):
+        self.id = id
+        self.rate = rate
 
     def rate(self):
-        return self.value
+        return self.rate
 
