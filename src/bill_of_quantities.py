@@ -23,11 +23,10 @@ class BillOfQuantities:
 
     def create(self):
         groups = self.content.groupby(["File"])
-        print(groups.all())
         for file_name, group in groups:
-            category_groups = group.groupby(["Category"])
-            print(category_groups.all())
-
+            print(file_name)
+            category_groups = group.groupby(["Category"]).sum()
+            print(category_groups)
 
                 
 
@@ -67,7 +66,7 @@ class BillOfQuantities:
                                 if isinstance(x, str) else x).astype(float)
         self.content["Surface Area"] = self.content["Surface Area"].apply(lambda x: x.replace(" m²", "")
                                 if isinstance(x, str) else x).astype(float)
-        self.content["Area"] = np.where(self.content["Area"]!=0, self.content["Area"], self.content["Surface Area"])
+        self.content["Quantity"] = np.where(self.content["Area"]!=0, self.content["Area"], self.content["Surface Area"])
 
     def split_size(self):
         self.content[['Size_1', 'Size_2', 'Size_3']] = self.content['Size'].str.split('-', expand=True)
