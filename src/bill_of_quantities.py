@@ -1,4 +1,3 @@
-from ast import Num
 import os
 import pandas as pd
 import numpy as np
@@ -25,6 +24,7 @@ class BillOfQuantities:
         
         self.content = pd.concat(self.content_list)
         self.cleanup_data()
+        self.collate_area()
 
 
     def cleanup_data(self):
@@ -33,8 +33,10 @@ class BillOfQuantities:
         self.content["Surface Area"] = self.content["Surface Area"].apply(lambda x: x.replace(" m²", "")
                                 if isinstance(x, str) else x).astype(float)
 
-        print(self.content["Area"])
-        print(self.content["Surface Area"])
+
+    def collate_area(self):
+        self.content["Collated Area"] = np.where(self.content["Area"]!=0, self.content["Area"], self.content["Surface Area"])
+
 
 
     def split_size(self):
