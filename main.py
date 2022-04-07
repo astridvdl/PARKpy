@@ -6,7 +6,6 @@ if __name__ == "__main__":
     mechanical_boq.min_width()
     mechanical_boq.min_height()
     mechanical_boq.categorize()
-    print(mechanical_boq)
 
     mechanical_boq.export("output\\csv")
 

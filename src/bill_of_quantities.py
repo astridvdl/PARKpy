@@ -1,3 +1,4 @@
+from ast import Num
 import os
 import pandas as pd
 import numpy as np
@@ -7,9 +8,9 @@ class BillOfQuantities:
     def __init__(self, data_path):
         self.content_list = []
         self.file_names = []
-        self.clean_data(data_path)
+        self.read_data(data_path)
 
-    def clean_data(self, data):
+    def read_data(self, data):
         #for file in [f for f in os.listdir(data) if f.endswith(".csv")]:
         for file in os.listdir(data):
             if file.endswith(".csv"):
@@ -23,10 +24,17 @@ class BillOfQuantities:
                 self.file_names.append(file)
         
         self.content = pd.concat(self.content_list)
-        #self.combine_all()
-        
-        #self.content.to_csv("output/csv/all_cleaned.csv",index = False)
-        print(self.content) 
+        self.cleanup_data()
+
+
+    def cleanup_data(self):
+        self.content["Area"] = self.content["Area"].apply(lambda x: x.replace(" m²", "")
+                                if isinstance(x, str) else x).astype(float)
+        self.content["Surface Area"] = self.content["Surface Area"].apply(lambda x: x.replace(" m²", "")
+                                if isinstance(x, str) else x).astype(float)
+
+        print(self.content["Area"])
+        print(self.content["Surface Area"])
 
 
     def split_size(self):
@@ -59,9 +67,13 @@ class BillOfQuantities:
         self.content['Category'] = np.select(self.conditions, self.category)
 
 
+
+
     def export(self,location):
-        for file in self.content.File.unique():  
-            print(file)      
+        print(self.content.info())
+        self.content.to_csv(f"{location}\\all_temp.csv")
+        for file in self.content.File.unique():      
             file_data = self.content.loc[self.content["File"] == file]
             file_data.to_csv(f"{location}\\BOQ_{file}")
-            
+
+           
