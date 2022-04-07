@@ -1,47 +1,47 @@
-Family and Type,Insulation Type,Insulation Thickness,Size,Count,Area,Surface Area,Taper Type,Bend Angle,Bend Nominal Radius Scale,File,Length,Size_1,Size_2,Size_3,Size_1_W,Size_1_H,Size_2_W,Size_2_H,Size_3_W,Size_3_H,Min_Width,Min_Height,Max_W_H,Sum_W_H,Category
-M_Rectangular Pants - Reducing: Standard,Duct Wrap,25 mm,800x200-450x200-450x200,1.0,0.000 m²,0.000 m²,,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,800x200,450x200,450x200,800,200,450.0,200.0,450.0,200.0,450.0,200.0,450.0,650.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x250-200x250,4.0,0.000 m²,0.424 m²,,45.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,200x250,200x250,,200,250,200.0,250.0,,,200.0,250.0,250.0,450.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x250-200x250,7.0,0.000 m²,1.484 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,200x250,200x250,,200,250,200.0,250.0,,,200.0,250.0,250.0,450.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x450-200x450,2.0,0.000 m²,0.613 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,200x450,200x450,,200,450,200.0,450.0,,,200.0,450.0,450.0,650.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x500-200x500,1.0,0.000 m²,0.330 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,200x500,200x500,,200,500,200.0,500.0,,,200.0,500.0,500.0,700.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x200-250x200,5.0,0.000 m²,1.325 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,250x200,250x200,,250,200,250.0,200.0,,,250.0,200.0,250.0,450.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x250-250x250,12.0,0.000 m²,3.534 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,250x250,250x250,,250,250,250.0,250.0,,,250.0,250.0,250.0,500.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,250x450-250x450,1.0,0.000 m²,0.412 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,250x450,250x450,,250,450,250.0,450.0,,,250.0,450.0,450.0,700.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x300-300x300,2.0,0.000 m²,0.424 m²,,45.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,300x300,300x300,,300,300,300.0,300.0,,,300.0,300.0,300.0,600.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x300-300x300,5.0,0.000 m²,2.121 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,300x300,300x300,,300,300,300.0,300.0,,,300.0,300.0,300.0,600.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x350-350x350,10.0,0.000 m²,5.773 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,350x350,350x350,,350,350,350.0,350.0,,,350.0,350.0,350.0,700.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x400-350x400,1.0,0.000 m²,0.619 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,350x400,350x400,,350,400,350.0,400.0,,,350.0,400.0,400.0,750.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x650-350x650,2.0,0.000 m²,1.649 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,350x650,350x650,,350,650,350.0,650.0,,,350.0,650.0,650.0,1000.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x700-350x700,4.0,0.000 m²,3.464 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,350x700,350x700,,350,700,350.0,700.0,,,350.0,700.0,700.0,1050.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,450x200-450x200,2.0,0.000 m²,1.378 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,450x200,450x200,,450,200,450.0,200.0,,,450.0,200.0,450.0,650.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x200-500x200,1.0,0.000 m²,0.825 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,500x200,500x200,,500,200,500.0,200.0,,,500.0,200.0,500.0,700.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,650x350-650x350,3.0,0.000 m²,4.595 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,650x350,650x350,,650,350,650.0,350.0,,,650.0,350.0,650.0,1000.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,700x350-700x350,6.0,0.000 m²,10.391 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,700x350,700x350,,700,350,700.0,350.0,,,700.0,350.0,700.0,1050.0,1
-M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,350x350-400x300,4.0,2.280 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,350x350,400x300,,350,350,400.0,300.0,,,350.0,300.0,350.0,650.0,1
-M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,450x250-450x200,1.0,0.519 m²,0.000 m²,Flat on Right and Left,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,450x250,450x200,,450,250,450.0,200.0,,,450.0,200.0,450.0,650.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-250x200,3.0,5.456 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,250x200,,1070,745,250.0,200.0,,,250.0,200.0,250.0,450.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-250x250,4.0,7.376 m²,0.000 m²,,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,250x250,,1070,745,250.0,250.0,,,250.0,250.0,250.0,500.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-300x300,1.0,1.903 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,300x300,,1070,745,300.0,300.0,,,300.0,300.0,300.0,600.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-350x350,1.0,2.017 m²,0.000 m²,Flat on Bottom,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,350x350,,1070,745,350.0,350.0,,,350.0,350.0,350.0,700.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-350x650,1.0,2.191 m²,0.000 m²,Flat on Left,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,350x650,,1070,745,350.0,650.0,,,350.0,650.0,650.0,1000.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-450x250,1.0,2.044 m²,0.000 m²,Flat on Bottom,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,450x250,,1070,745,450.0,250.0,,,450.0,250.0,450.0,700.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-500x200,1.0,1.959 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,500x200,,1070,745,500.0,200.0,,,500.0,200.0,500.0,700.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-650x350,2.0,4.380 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,650x350,,1070,745,650.0,350.0,,,650.0,350.0,650.0,1000.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-700x350,3.0,6.676 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,700x350,,1070,745,700.0,350.0,,,700.0,350.0,700.0,1050.0,1
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x900-300x900,1.0,0.000 m²,0.848 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,300x900,300x900,,300,900,300.0,900.0,,,300.0,900.0,900.0,1200.0,3
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x800-350x800,1.0,0.000 m²,0.948 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,350x800,350x800,,350,800,350.0,800.0,,,350.0,800.0,800.0,1150.0,3
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x850-350x850,1.0,0.000 m²,0.990 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,350x850,350x850,,350,850,350.0,850.0,,,350.0,850.0,850.0,1200.0,3
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,500x850-500x850,1.0,0.000 m²,1.590 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,500x850,500x850,,500,850,500.0,850.0,,,500.0,850.0,850.0,1350.0,3
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,800x350-800x350,1.0,0.000 m²,2.168 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,800x350,800x350,,800,350,800.0,350.0,,,800.0,350.0,800.0,1150.0,3
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,900x300-900x300,2.0,0.000 m²,5.089 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,900x300,900x300,,900,300,900.0,300.0,,,900.0,300.0,900.0,1200.0,3
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,850x500-850x350,1.0,1.722 m²,0.000 m²,Flat on Right and Left,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,850x500,850x350,,850,500,850.0,350.0,,,850.0,350.0,850.0,1200.0,3
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1000x1000-1700x400,2.0,7.001 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1000x1000,1700x400,,1000,1000,1700.0,400.0,,,1000.0,400.0,1000.0,1400.0,3
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-400x350,1.0,2.023 m²,0.000 m²,Flat on Right,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,400x350,,1070,745,400.0,350.0,,,400.0,350.0,400.0,750.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-700x350,1.0,2.228 m²,0.000 m²,Flat on Top,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,700x350,,1070,745,700.0,350.0,,,700.0,350.0,700.0,1050.0,1
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-800x200,1.0,2.133 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,800x200,,1070,745,800.0,200.0,,,800.0,200.0,800.0,1000.0,3
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-800x350,1.0,2.304 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,800x350,,1070,745,800.0,350.0,,,800.0,350.0,800.0,1150.0,3
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-850x500,2.0,5.054 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,850x500,,1070,745,850.0,500.0,,,850.0,500.0,850.0,1350.0,3
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-900x300,1.0,2.402 m²,0.000 m²,Flat on Bottom,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1070x745,900x300,,1070,745,900.0,300.0,,,900.0,300.0,900.0,1200.0,3
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1200x1200-1000x1000,4.0,17.499 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1200x1200,1000x1000,,1200,1200,1000.0,1000.0,,,1000.0,1000.0,1000.0,2000.0,3
-M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x1700-400x1700,4.0,0.000 m²,7.917 m²,,90.00°,0.75,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,400x1700,400x1700,,400,1700,400.0,1700.0,,,400.0,1700.0,1700.0,2100.0,4
-M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1000x1000-1700x400,2.0,7.001 m²,0.000 m²,Equal Taper,,,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,,1000x1000,1700x400,,1000,1000,1700.0,400.0,,,1000.0,400.0,1000.0,1400.0,3
+,Family and Type,File,Quantity,Category
+2,M_Rectangular Pants - Reducing: Standard,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.0,1
+4,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.424,1
+5,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,1.484,1
+6,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.613,1
+7,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.33,1
+8,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,1.325,1
+9,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,3.534,1
+10,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.412,1
+11,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.424,1
+12,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.121,1
+13,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,5.773,1
+14,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.619,1
+15,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,1.649,1
+16,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,3.464,1
+17,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,1.378,1
+18,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.825,1
+19,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,4.595,1
+20,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,10.391,1
+21,M_Rectangular Flanged Transition - Length: 300 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.28,1
+22,M_Rectangular Flanged Transition - Length: 300 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.519,1
+23,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,5.456,1
+24,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,7.376,1
+25,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,1.903,1
+26,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.017,1
+27,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.191,1
+28,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.044,1
+29,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,1.959,1
+30,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,4.38,1
+31,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,6.676,1
+33,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.848,3
+34,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.948,3
+35,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,0.99,3
+36,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,1.59,3
+37,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.168,3
+38,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,5.089,3
+39,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,1.722,3
+40,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,7.001,3
+41,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.023,1
+42,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.228,1
+43,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.133,3
+44,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.304,3
+45,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,5.054,3
+46,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,2.402,3
+47,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,17.499,3
+49,M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,7.917,4
+50,M_Rectangular Flanged Transition - Length: 600 mm,Duct Fitting Schedule Low Pressure Insulated Cladded Rect.csv,7.001,3
