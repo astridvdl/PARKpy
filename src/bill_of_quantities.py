@@ -1,5 +1,4 @@
 import os
-from unicodedata import category
 import pandas as pd
 import numpy as np
 
@@ -20,22 +19,27 @@ class BillOfQuantities:
                 df = df[df["Size"].notnull()]         
                 df['File'] = file
                 self.content_list.append(df)
-
-                print(df)
         self.content = pd.concat(self.content_list)
 
     def create(self):
-        all_boqs = []
-        groups = self.content.groupby(["File"])
-        for file_name, group in groups:
-            print(file_name)
-            print(groups.all())
-            category_grouped = group.groupby(["Category"]).sum()
-            category_grouped["Copy"] = 1
+        file_grouped = self.content.groupby(["File"])
+        for file_name, group in file_grouped:
+            print(file_name)           
+            category_grouped = group.groupby(["Category"], as_index=False).sum()
+            
+
+            category_grouped["Rate"] = category_grouped["Category"].apply(lambda x:self.categories[x])
+
+            category_grouped["Cost"] = category_grouped["Quantity"] * category_grouped["Rate"]
+            category_grouped.loc["Total", "Cost"] = category_grouped["Cost"].sum()
+
+            #total_cost = category_grouped["Cost"].sum()
+
+            #print(total_cost)
             print(category_grouped)
-            all_boqs.append(category_grouped)
-            #category_grouped["Rate"] = category_grouped["Category"].apply(lambda x:self.categories[x])
-            category_grouped.to_csv(f"Test_BOQ_{file_name}")
+
+            category_grouped.to_csv(f"output\\csv\\Test_BOQ_{file_name}", index = False)
+
 
     def interpret_data(self):
         self.split_size()
@@ -43,7 +47,6 @@ class BillOfQuantities:
         self.min_height()
         self.collate_area()
         self.add_category()
-        print(self.content)
         self.cleanup_data()
 
 
