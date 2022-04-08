@@ -1,25 +1,59 @@
+from operator import index
 import os
+from unicodedata import name
 import pandas as pd
 import numpy as np
+from src.boq_section import BoQSection
 
 class BillOfQuantities:
     
-    def __init__(self, data_path, categories):
-        self.categories = categories
+    def __init__(self, data_path):
+        self.categories = [] #revise
+        self.section_names = []
         self.content_list = []
-        self.import_data(data_path)
-        self.interpret_data()
+        self._import_data(data_path)
+        #self.interpret_data()
 
-    def import_data(self, data):
+    def _import_data(self, data):
         #for file in [f for f in os.listdir(data) if f.endswith(".csv")]:
         for file in os.listdir(data):
             if file.endswith(".csv"):
                 file_path = os.path.join(data,file)
+                file_name = file.rsplit(".",1)[0]
+                
                 df = pd.read_csv(file_path)
                 df = df[df["Size"].notnull()]         
-                df['File'] = file
-                self.content_list.append(df)
+                #df['File'] = file
+                
+                self.content_list.append(df) #rather send df to section object?
+                #section = self.create_section(file_name)
+                self.section_names.append(file_name)
+
+        #self.content = pd.concat(self.content_list) #revise
+
+    def create_boq(self, categories):
+        #create boq heading?
+        self.create_boq_sections(categories, self.section_names, self.content_list)
+        # required?
+
+    def create_boq_sections(self,categories,section_names, component_data):
+        self.sorted_sections = []
+        for section in enumerate(section_names):
+            #section_components = 
+            print (f"\n----\n{section[0]}: {section[1]}")
+            print(component_data[section[0]])
+            #sorted_section = self.create_section(section, categories, all_components[0])
+            #sorted_section = BoQSection(section, categories, all_components[0])
+            #self.sorted_sections.append(sorted_section)
+            #print(sorted_section.name())
+        
         self.content = pd.concat(self.content_list)
+
+    def create_section(self, name, categories, components):  
+        return BoQSection(name, categories, components) 
+
+
+
 
     def create(self):
         file_grouped = self.content.groupby(["File"])
@@ -29,14 +63,7 @@ class BillOfQuantities:
             
             category_grouped["Rate"] = category_grouped.index.to_series().apply(lambda x:self.categories[x])
             category_grouped["Cost"] = category_grouped["Quantity"] * category_grouped["Rate"]
-
-            #category_grouped.set_index("Category")
-            #category_grouped = category_grouped.reset_index(level="Category")
-            
-
             category_grouped.loc["Total", "Cost"] = category_grouped["Cost"].sum()
-            #category_grouped = category_grouped.append(pd.Series(['Total',total_cost]),ignore_index=True)
-
             print(category_grouped)
 
             category_grouped.to_csv(f"output\\csv\\Test_BOQ_{file_name}", index = True)
@@ -45,13 +72,13 @@ class BillOfQuantities:
 
 
 
-    def interpret_data(self):
+    def organise_data(self):
         self.split_size()
         self.min_width()
         self.min_height()
         self.collate_area()
-        self.add_category()
-        self.cleanup_data()
+        #self.add_category()
+        #self.cleanup_data()
 
 
     def cleanup_data(self):
