@@ -25,20 +25,24 @@ class BillOfQuantities:
         file_grouped = self.content.groupby(["File"])
         for file_name, group in file_grouped:
             print(file_name)           
-            category_grouped = group.groupby(["Category"], as_index=False).sum()
+            category_grouped = group.groupby(["Category"]).sum()
+            
+            category_grouped["Rate"] = category_grouped.index.to_series().apply(lambda x:self.categories[x])
+            category_grouped["Cost"] = category_grouped["Quantity"] * category_grouped["Rate"]
+
+            #category_grouped.set_index("Category")
+            #category_grouped = category_grouped.reset_index(level="Category")
             
 
-            category_grouped["Rate"] = category_grouped["Category"].apply(lambda x:self.categories[x])
-
-            category_grouped["Cost"] = category_grouped["Quantity"] * category_grouped["Rate"]
             category_grouped.loc["Total", "Cost"] = category_grouped["Cost"].sum()
+            #category_grouped = category_grouped.append(pd.Series(['Total',total_cost]),ignore_index=True)
 
-            #total_cost = category_grouped["Cost"].sum()
-
-            #print(total_cost)
             print(category_grouped)
 
-            category_grouped.to_csv(f"output\\csv\\Test_BOQ_{file_name}", index = False)
+            category_grouped.to_csv(f"output\\csv\\Test_BOQ_{file_name}", index = True)
+
+
+
 
 
     def interpret_data(self):
