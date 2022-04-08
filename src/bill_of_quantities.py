@@ -1,19 +1,16 @@
 import os
 import pandas as pd
-import numpy as np
 from src.boq_section import BoQSection
 
 class BillOfQuantities:
     
     def __init__(self, data_path):
-        self.categories = [] #revise
+        self.categories = [] 
         self.section_names = []
         self.content_list = []
         self._import_components(data_path)
-        #self.interpret_data()
 
     def _import_components(self, directory):
-        #for file in [f for f in os.listdir(data) if f.endswith(".csv")]:
         for file in os.listdir(directory):
             if file.endswith(".csv"):
                 file_path = os.path.join(directory,file)
@@ -22,10 +19,10 @@ class BillOfQuantities:
                 df = pd.read_csv(file_path)      
                 df['Section'] = file_name 
                 
-                self.content_list.append(df) #rather send df to section object?
+                self.content_list.append(df) 
                 self.section_names.append(file_name)
 
-        self.raw_content = pd.concat(self.content_list) #revise
+        self.raw_content = pd.concat(self.content_list) 
         self._standardise_components()
 
     def _standardise_components(self):
@@ -39,7 +36,6 @@ class BillOfQuantities:
         self.raw_content[['Size_3_W', 'Size_3_H']] = self.raw_content[['Size_3_W', 'Size_3_H']].apply(pd.to_numeric)
 
     def create_boq(self, title):
-        #create boq excel file with heading?
         print(title)
 
     def create_boq_sections(self, categories):
@@ -54,5 +50,3 @@ class BillOfQuantities:
         for section in self.all_sections:      
             section.export_csv(location)
             print(f"Successfully Created Bill of Quantities for: {section}")
-
-
