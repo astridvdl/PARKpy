@@ -1,4 +1,3 @@
-import pandas as pd
 import numpy as np
 class BoQSection:
     def __init__(self, name, data):
@@ -34,7 +33,6 @@ class BoQSection:
         category_grouped.loc["Total", "Cost"] = category_grouped["Cost"].sum()
 
         self.content = category_grouped
-        #category_grouped.to_csv(f"output\\csv\\Test_BOQ_{file_name}", index = True)
     
     def _add_categories(self,categories):
         self.content['Max_W_H'] = self.content[['Min_Width','Min_Height']].max(axis=1)
@@ -84,5 +82,3 @@ class BoQSection:
 
     def export_csv(self,location):
         self.content.to_csv(f"{location}\\BOQ_{self.name}")
-
-    
