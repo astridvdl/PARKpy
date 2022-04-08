@@ -1,6 +1,4 @@
 ﻿Family and Type,Insulation Type,Insulation Thickness,Size,Count,Area,Surface Area,Taper Type,Bend Angle,Bend Nominal Radius Scale
-,,,,,,,,,
-,,,,,,,,,
 M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,200x200-200x200,3,0.076 m²,0.000 m²,,,
 M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,250x250-250x250,24,0.746 m²,0.000 m²,,,
 M-H Flanged Rectangular Union: Standard,Duct Wrap,25 mm,300x250-300x250,33,1.119 m²,0.000 m²,,,
@@ -26,7 +24,6 @@ M_Rectangular Wye - Curved - Transition: Standard,Duct Wrap,25 mm,500x250-400x25
 M_Rectangular Wye - Curved - Transition: Standard,Duct Wrap,25 mm,650x350-300x350-400x350,1,0.000 m²,0.000 m²,,,
 M_Rectangular Wye - Dovetail: Standard,Duct Wrap,25 mm,1700x350-800x350-800x350,2,0.000 m²,0.000 m²,,,
 M_Rectangular Wye - Dovetail: Standard,Duct Wrap,25 mm,1700x400-800x400-800x400,2,0.000 m²,0.000 m²,,,
-: 221,,,,221,10.133 m²,0.000 m²,,,
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,150x300-150x300,6,0.000 m²,0.318 m²,,30.00°,0.75
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,150x550-150x550,2,0.000 m²,0.247 m²,,45.00°,0.75
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x200-200x200,4,0.000 m²,0.377 m²,,45.00°,0.75
@@ -177,10 +174,8 @@ M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,250x250-250x250
 M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,250x400-250x400,3,0.229 m²,0.000 m²,,,
 M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,250x500-250x500,2,0.175 m²,0.000 m²,,,
 M_Rectangular Offset - Plain - Flanged: Standard,Duct Wrap,25 mm,300x400-300x400,1,0.082 m²,0.000 m²,,,
-'1: 362,,,,362,87.547 m²,71.925 m²,,,
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,750x500-750x500,1,0.000 m²,2.209 m²,,90.00°,0.75
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,800x500-750x500,1,1.767 m²,0.000 m²,Flat on Top and Bottom,,
-'2: 2,,,,2,1.767 m²,2.209 m²,,,
 Grille Plenum Box Rectangular Duct With Split: Grille Plenum Box Rectangular Duct With Split,Duct Wrap,25 mm,1150x150-400x150-750x150,1,2.309 m²,0.000 m²,,,
 Grille Plenum Box Rectangular Duct With Split: Grille Plenum Box Rectangular Duct With Split,Duct Wrap,25 mm,1150x150-750x150-400x150,1,1.644 m²,0.000 m²,,,
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,150x800-150x800,2,0.000 m²,0.336 m²,,45.00°,0.75
@@ -206,8 +201,5 @@ M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-500x3
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1162x216-500x350,3,3.894 m²,0.000 m²,,,
 Plenum_Box_Supply Unit_Rect Ducts: Plenum_Box_Supply Unit_Rect Ducts,Duct Wrap,25 mm,1162x216-350x250-450x150,1,1.948 m²,0.000 m²,,,
 Plenum_Box_Supply Unit_Rect Ducts: Plenum_Box_Supply Unit_Rect Ducts,Duct Wrap,25 mm,1162x216-400x300-400x250,1,1.921 m²,0.000 m²,,,
-'3: 37,,,,37,32.864 m²,8.677 m²,,,
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x1700-400x1700,4,0.000 m²,7.917 m²,,90.00°,0.75
 M_Rectangular Flanged Transition - Length: 300 mm,Duct Wrap,25 mm,1700x400-1700x350,2,4.879 m²,0.000 m²,"Flat on Right, Left, Bottom",,
-'4: 6,,,,6,4.879 m²,7.917 m²,,,
-Grand total: 628,,,,628,137.190 m²,90.727 m²,,,

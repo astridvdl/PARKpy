@@ -1,8 +1,5 @@
 ﻿Family and Type,Insulation Type,Insulation Thickness,Size,Count,Area,Surface Area,Taper Type,Bend Angle,Bend Nominal Radius Scale
-,,,,,,,,,
-,,,,,,,,,
 M_Rectangular Pants - Reducing: Standard,Duct Wrap,25 mm,800x200-450x200-450x200,1,0.000 m²,0.000 m²,,,
-: 1,,,,1,0.000 m²,0.000 m²,,,
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x250-200x250,4,0.000 m²,0.424 m²,,45.00°,0.75
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x250-200x250,7,0.000 m²,1.484 m²,,90.00°,0.75
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,200x450-200x450,2,0.000 m²,0.613 m²,,90.00°,0.75
@@ -31,7 +28,6 @@ M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-450x2
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-500x200,1,1.959 m²,0.000 m²,Equal Taper,,
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-650x350,2,4.380 m²,0.000 m²,Equal Taper,,
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-700x350,3,6.676 m²,0.000 m²,Equal Taper,,
-'1: 90,,,,90,36.803 m²,39.360 m²,,,
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,300x900-300x900,1,0.000 m²,0.848 m²,,90.00°,0.75
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x800-350x800,1,0.000 m²,0.948 m²,,90.00°,0.75
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,350x850-350x850,1,0.000 m²,0.990 m²,,90.00°,0.75
@@ -47,8 +43,5 @@ M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-800x3
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-850x500,2,5.054 m²,0.000 m²,Equal Taper,,
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1070x745-900x300,1,2.402 m²,0.000 m²,Flat on Bottom,,
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1200x1200-1000x1000,4,17.499 m²,0.000 m²,Equal Taper,,
-'3: 21,,,,21,42.368 m²,11.634 m²,,,
 M-H Flange Rectangular Bend Scale Radius: Scale Radius,Duct Wrap,25 mm,400x1700-400x1700,4,0.000 m²,7.917 m²,,90.00°,0.75
 M_Rectangular Flanged Transition - Length: 600 mm,Duct Wrap,25 mm,1000x1000-1700x400,2,7.001 m²,0.000 m²,Equal Taper,,
-'4: 6,,,,6,7.001 m²,7.917 m²,,,
-Grand total: 118,,,,118,86.173 m²,58.911 m²,,,
