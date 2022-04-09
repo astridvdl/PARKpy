@@ -33,7 +33,6 @@ class BoQSection:
         category_grouped.loc["Total", "Cost"] = category_grouped["Cost"].sum()
 
         self.content = category_grouped
-        return category_grouped
     
     def _add_categories(self,categories):
         self.content['Max_W_H'] = self.content[['Min_Width','Min_Height']].max(axis=1)

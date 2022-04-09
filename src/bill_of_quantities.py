@@ -63,3 +63,5 @@ class BillOfQuantities:
         excel_sheet = excel_file.sheets(sheet)
         excel_sheet.range("A1").value = "some output"
         excel_sheet["A1"].options(pd.DataFrame, header=1, index=True, expand='table').value = data
+        excel_file.save()
+        excel_file.app.quit()
