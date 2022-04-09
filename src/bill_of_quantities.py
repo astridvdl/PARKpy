@@ -1,4 +1,5 @@
 import os
+from numpy import NaN
 import pandas as pd
 import xlwings as xw
 from src.boq_section import BoQSection
@@ -56,12 +57,22 @@ class BillOfQuantities:
             print(f"Successfully Created Bill of Quantities for: {section}")
 
     def export_to_xlsx(self, workbook="HVAC BOQ - Ducting.xlsx", sheet="MainBOQ", data=pd.DataFrame()):
+        self.format_excel_raw(data)
         excel_file = xw.Book()
         excel_file.sheets.add(sheet)
         excel_file.sheets("Sheet1").delete()
         excel_file.save(r"output\\excel\\{0}".format(workbook))
         excel_sheet = excel_file.sheets(sheet)
         excel_sheet.range("A1").value = "some output"
-        excel_sheet["A1"].options(pd.DataFrame, header=1, index=True, expand='table').value = data
+        excel_sheet["A1"].options(pd.DataFrame, header=1, index=False, expand='table').value = self.df
         excel_file.save()
-        excel_file.app.quit()
+        excel_file.close()
+
+    def format_excel_raw(self, data):
+        self.df = data[["Category",	"Quantity",	"Rate",	"Cost"]]
+        self.df = self.df[self.df["Rate"].notna()]
+        self.df = self.df.groupby(["Category", "Rate"]).sum(["Quantity", "Cost"]).reset_index()
+        print(self.df)
+        return self.df
+
+        
