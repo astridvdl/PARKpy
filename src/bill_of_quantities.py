@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import xlwings as xw
 from src.boq_section import BoQSection
 class BillOfQuantities:
     
@@ -50,3 +51,14 @@ class BillOfQuantities:
         for section in self.all_sections:      
             section.export_csv(location)
             print(f"Successfully Created Bill of Quantities for: {section}")
+
+    def export_to_xlsx(self, workbook="HVAC BOQ - Ducting.xlsx", sheet="MainBOQ"):
+        excel_file = xw.Book()
+        excel_file.sheets.add(sheet)
+        excel_file.sheets("Sheet1").delete()
+        excel_file.save(r"output\\excel\\{0}".format(workbook))
+        excel_sheet = excel_file.sheets(sheet)
+        excel_sheet.range("A1").value = "some output"
+        #excel_sheet.range["A1"].value = 1
+        # sheet.["A1"].value = self.all_sections
+        
