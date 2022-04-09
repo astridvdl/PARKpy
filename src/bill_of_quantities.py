@@ -40,8 +40,8 @@ class BillOfQuantities:
 
     def create_boq_sections(self, categories):
         self.all_sections = []
-        section_group = self.raw_content.groupby(["Section"])
-        for name, group in section_group:
+        self.section_group = self.raw_content.groupby(["Section"])
+        for name, group in self.section_group:
             sorted_section = BoQSection(name,group)
             sorted_section.format_by(categories)
             self.all_sections.append(sorted_section)
@@ -59,6 +59,7 @@ class BillOfQuantities:
         excel_file.save(r"output\\excel\\{0}".format(workbook))
         excel_sheet = excel_file.sheets(sheet)
         excel_sheet.range("A1").value = "some output"
+        
         #excel_sheet.range["A1"].value = 1
         # sheet.["A1"].value = self.all_sections
         
