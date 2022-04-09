@@ -10,6 +10,9 @@ class BillOfQuantities:
         self.content_list = []
         self._import_components(data_path)
 
+    def run_csv_out(self):
+        self._standardise_components()
+
     def _import_components(self, directory):
         for file in os.listdir(directory):
             if file.endswith(".csv"):
@@ -23,7 +26,7 @@ class BillOfQuantities:
                 self.section_names.append(file_name)
 
         self.raw_content = pd.concat(self.content_list) 
-        self._standardise_components()
+        
 
     def _standardise_components(self):
         self.raw_content = self.raw_content[self.raw_content["Size"].notnull()]   
@@ -52,14 +55,11 @@ class BillOfQuantities:
             section.export_csv(location)
             print(f"Successfully Created Bill of Quantities for: {section}")
 
-    def export_to_xlsx(self, workbook="HVAC BOQ - Ducting.xlsx", sheet="MainBOQ"):
+    def export_to_xlsx(self, workbook="HVAC BOQ - Ducting.xlsx", sheet="MainBOQ", data=pd.DataFrame()):
         excel_file = xw.Book()
         excel_file.sheets.add(sheet)
         excel_file.sheets("Sheet1").delete()
         excel_file.save(r"output\\excel\\{0}".format(workbook))
         excel_sheet = excel_file.sheets(sheet)
         excel_sheet.range("A1").value = "some output"
-        
-        #excel_sheet.range["A1"].value = 1
-        # sheet.["A1"].value = self.all_sections
-        
+        excel_sheet["A1"].options(pd.DataFrame, header=1, index=True, expand='table').value = data

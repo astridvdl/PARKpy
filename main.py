@@ -11,8 +11,10 @@ if __name__ == "__main__":
         }
 
     my_boq = BillOfQuantities("data")
-
+    my_boq.run_csv_out()
     my_boq.create_boq("AIR CONDITIONING & VENTILATION INSTALLATION") 
     my_boq.create_boq_sections(boq_hvac_categories)
     my_boq.export_seperate_csvs("output\\csv")
-    my_boq.export_to_xlsx()
+    
+    excel_boq = BillOfQuantities("output\\csv")
+    excel_boq.export_to_xlsx(data=excel_boq.raw_content)
