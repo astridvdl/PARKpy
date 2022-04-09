@@ -46,6 +46,7 @@ class BillOfQuantities:
             self.all_sections.append(sorted_section)
     
     def export_seperate_csvs(self,location):
+        
         for section in self.all_sections:      
             section.export_csv(location)
             print(f"Successfully Created Bill of Quantities for: {section}")

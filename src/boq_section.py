@@ -81,4 +81,4 @@ class BoQSection:
         return self.name
 
     def export_csv(self,location):
-        self.content.to_csv(f"{location}\\BOQ_{self.name}")
+        self.content.to_csv(f"{location}\\BOQ_{self.name}.csv")
