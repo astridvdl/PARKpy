@@ -62,41 +62,47 @@ class BillOfQuantities:
             section.export_csv(location)
             print(f"Successfully Created Bill of Quantities for: {section}")
 
-    def export_to_xlsx(self, workbook="HVAC BOQ - Ducting.xlsx", sheet="MainBOQ", data=pd.DataFrame()):
+    def export_to_xlsx(self, workbook="HVAC BOQ - Ducting.xlsx", data=pd.DataFrame()):
         self._import_components(self.data_path)
-        self._format_excel_raw(data)
-        excel_file = xw.Book()
-        excel_file.sheets.add(sheet)
-        excel_file.sheets("Sheet1").delete()
-        excel_file.save(r"output\\excel\\{0}".format(workbook))
-        excel_sheet = excel_file.sheets(sheet)
+        self.sections = self.raw_content['Section'].unique()
+        self.excel_file = xw.Book()
+        self.excel_file.save(r"output\\excel\\{0}".format(workbook))
+        self.excel_file.save()
+        self._mainSheet()
+        self._summarySheet(data)
+        self.excel_file.save()
+        self.excel_file.close()   
 
-        sections = self.raw_content['Section'].unique()
-        print(sections)
+    def _mainSheet(self):
+        self._addSheet(sheet="Main_BOQ", df=self.raw_content)
 
-        excel_sheet.range("A1").value = "Item,Description,Unit,Qty,Rate,Amount".split(',')
-        excel_sheet.range("A2").options(transpose=True).value = [1,1.1,1.2,1.3,1.4,1.5]
-        excel_sheet.range("B2").options(transpose=True).value = ("Ducting", 
-        "Category 1 (W<750 or H<750 or W+H<1150)", 
-        "Category 2 (W<750 or H<750 or W+H>1150)", 
-        "Category 3 (750<W<1350 or 750<H<1350)", 
-        "Category 4 (1350<W<2100 or 1350<H<2100)", 
-        "Category 5 (2100<W or 2100<H)")
-        excel_sheet["C3"].options(pd.DataFrame, header=0, index=False, expand='table').value = self.raw_content
-        total = self.df["Cost"].sum()
-        excel_sheet.range("F8").value = total
-        excel_sheet.autofit(axis="columns")
-        excel_file.save()
-        excel_file.close()
-
-    def _format_excel_raw(self, data):
+    def _summarySheet(self, data):
+        self._addSheet(sheet="Summary", df=self.raw_content)
         self.df = data[["Category",	"Quantity",	"Rate",	"Cost"]]
         self.df = self.df[self.df["Rate"].notna()]
         self.df = self.df.groupby(["Category", "Rate"]).sum(["Quantity", "Cost"]).reset_index()
         self.df = self.df[["Quantity","Rate","Cost"]]
         #self.df =self.df.rename(columns = {"Quantity":"Qty", "Cost":"Amount"})
         self.df.insert(0,"Unit","m²")
-        print(self.df)
+        self.excel_sheet.range("A1").value = "Item,Description,Unit,Qty,Rate,Amount".split(',')
+        self.excel_sheet.range("A2").options(transpose=True).value = [1,1.1,1.2,1.3,1.4,1.5]
+        self.excel_sheet.range("B2").options(transpose=True).value = ("Ducting", 
+        "Category 1 (W<750 or H<750 or W+H<1150)", 
+        "Category 2 (W<750 or H<750 or W+H>1150)", 
+        "Category 3 (750<W<1350 or 750<H<1350)", 
+        "Category 4 (1350<W<2100 or 1350<H<2100)", 
+        "Category 5 (2100<W or 2100<H)")
+        self.excel_sheet["C3"].options(pd.DataFrame, header=0, index=False, expand='table').value = self.raw_content
+        total = self.df["Cost"].sum()
+        self.excel_sheet.range("F8").value = total
+
         return self.df
+
+    def _addSheet(self, sheet, df):
+        self.df_to_excel = df
+        self.excel_file.sheets.add(sheet)
+        self.excel_sheet = self.excel_file.sheets(sheet)
+        self.excel_sheet["A1"].options(pd.DataFrame, header=0, index=False, expand='table').value = self.df_to_excel
+        self.excel_sheet.autofit(axis="columns")
 
         
