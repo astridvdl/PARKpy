@@ -70,6 +70,10 @@ class BillOfQuantities:
         excel_file.sheets("Sheet1").delete()
         excel_file.save(r"output\\excel\\{0}".format(workbook))
         excel_sheet = excel_file.sheets(sheet)
+
+        sections = self.raw_content['Section'].unique()
+        print(sections)
+
         excel_sheet.range("A1").value = "Item,Description,Unit,Qty,Rate,Amount".split(',')
         excel_sheet.range("A2").options(transpose=True).value = [1,1.1,1.2,1.3,1.4,1.5]
         excel_sheet.range("B2").options(transpose=True).value = ("Ducting", 
@@ -78,13 +82,12 @@ class BillOfQuantities:
         "Category 3 (750<W<1350 or 750<H<1350)", 
         "Category 4 (1350<W<2100 or 1350<H<2100)", 
         "Category 5 (2100<W or 2100<H)")
-        excel_sheet["C3"].options(pd.DataFrame, header=0, index=False, expand='table').value = self.df
+        excel_sheet["C3"].options(pd.DataFrame, header=0, index=False, expand='table').value = self.raw_content
         total = self.df["Cost"].sum()
         excel_sheet.range("F8").value = total
         excel_sheet.autofit(axis="columns")
         excel_file.save()
         excel_file.close()
-
 
     def _format_excel_raw(self, data):
         self.df = data[["Category",	"Quantity",	"Rate",	"Cost"]]
