@@ -63,28 +63,32 @@ class BillOfQuantities:
             print(f"Successfully Created Bill of Quantities for: {section}")
 
     def export_to_xlsx(self, workbook="HVAC BOQ - Ducting.xlsx", data=pd.DataFrame()):
+        self.header = "Item,Description,Unit,Qty,Rate,Amount"
         self._import_components(self.data_path)
-        self.sections = self.raw_content['Section'].unique()
+        self.sections = self.raw_content['Section'].unique().tolist()
         self.excel_file = xw.Book()
         self.excel_file.save(r"output\\excel\\{0}".format(workbook))
         self.excel_file.save()
         self._mainSheet()
         self._summarySheet(data)
+        self.excel_file.sheets("Sheet1").delete()
         self.excel_file.save()
         self.excel_file.close()   
 
     def _mainSheet(self):
-        self._addSheet(sheet="Main_BOQ", df=self.raw_content)
+        self._addSheet(sheet="Main_BOQ", df=pd.DataFrame(), destination="A1")
+        self.raw_content.drop(['Section'],axis=1, inplace=True)
+        self.raw_content.insert(2,"Unit","m²")
+        self.excel_sheet.range("A1").value = self.raw_content
 
     def _summarySheet(self, data):
-        self._addSheet(sheet="Summary", df=self.raw_content)
         self.df = data[["Category",	"Quantity",	"Rate",	"Cost"]]
         self.df = self.df[self.df["Rate"].notna()]
         self.df = self.df.groupby(["Category", "Rate"]).sum(["Quantity", "Cost"]).reset_index()
         self.df = self.df[["Quantity","Rate","Cost"]]
-        #self.df =self.df.rename(columns = {"Quantity":"Qty", "Cost":"Amount"})
         self.df.insert(0,"Unit","m²")
-        self.excel_sheet.range("A1").value = "Item,Description,Unit,Qty,Rate,Amount".split(',')
+        self._addSheet(sheet="Summary", df=self.df, destination="C3")
+        self.excel_sheet.range("A1").value = self.header.split(',')
         self.excel_sheet.range("A2").options(transpose=True).value = [1,1.1,1.2,1.3,1.4,1.5]
         self.excel_sheet.range("B2").options(transpose=True).value = ("Ducting", 
         "Category 1 (W<750 or H<750 or W+H<1150)", 
@@ -92,17 +96,15 @@ class BillOfQuantities:
         "Category 3 (750<W<1350 or 750<H<1350)", 
         "Category 4 (1350<W<2100 or 1350<H<2100)", 
         "Category 5 (2100<W or 2100<H)")
-        self.excel_sheet["C3"].options(pd.DataFrame, header=0, index=False, expand='table').value = self.raw_content
         total = self.df["Cost"].sum()
         self.excel_sheet.range("F8").value = total
+        self.excel_sheet.autofit(axis="columns")
 
-        return self.df
-
-    def _addSheet(self, sheet, df):
+    def _addSheet(self, sheet, df, destination):
         self.df_to_excel = df
         self.excel_file.sheets.add(sheet)
         self.excel_sheet = self.excel_file.sheets(sheet)
-        self.excel_sheet["A1"].options(pd.DataFrame, header=0, index=False, expand='table').value = self.df_to_excel
+        self.excel_sheet[destination].options(pd.DataFrame, header=0, index=False, expand='table').value = self.df_to_excel
         self.excel_sheet.autofit(axis="columns")
 
         
