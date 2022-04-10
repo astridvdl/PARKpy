@@ -13,7 +13,7 @@ class BillOfQuantities:
         self._import_components(data_path)
 
     def run_csv_out(self):
-        self._standardise_components()
+        self.standardise_components()
 
     def _import_components(self, directory):
         for file in os.listdir(directory):
@@ -30,7 +30,7 @@ class BillOfQuantities:
         self.raw_content = pd.concat(self.content_list) 
         
 
-    def _standardise_components(self):
+    def standardise_components(self):
         self.raw_content = self.raw_content[self.raw_content["Size"].notnull()]   
         self.raw_content[['Size_1', 'Size_2', 'Size_3']] = self.raw_content['Size'].str.split('-', expand=True)
         self.raw_content[['Size_1_W', 'Size_1_H']] = self.raw_content['Size_1'].str.split('x', expand=True)
