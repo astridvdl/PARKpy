@@ -6,14 +6,16 @@ import xlwings as xw
 from src.boq_section import BoQSection
 class BillOfQuantities:
     
-    def __init__(self, data_path):
+    def __init__(self, data_path="data"):
         self.categories = [] 
         self.section_names = []
         self.content_list = []
         self.data_path = data_path
+        self.raw_content = pd.DataFrame()
+        self._import_components(self.data_path)
 
     def run_csv_out(self):
-        self._import_components(self.data_path)
+        
         self.standardise_components()
 
     def _import_components(self, directory):
@@ -28,7 +30,8 @@ class BillOfQuantities:
                 self.content_list.append(df) 
                 self.section_names.append(file_name)
 
-        self.raw_content = pd.concat(self.content_list) 
+        self.raw_content = pd.concat(self.content_list)
+        return self.raw_content
         
 
     def standardise_components(self):
@@ -60,6 +63,7 @@ class BillOfQuantities:
             print(f"Successfully Created Bill of Quantities for: {section}")
 
     def export_to_xlsx(self, workbook="HVAC BOQ - Ducting.xlsx", sheet="MainBOQ", data=pd.DataFrame()):
+        self._import_components(self.data_path)
         self._format_excel_raw(data)
         excel_file = xw.Book()
         excel_file.sheets.add(sheet)

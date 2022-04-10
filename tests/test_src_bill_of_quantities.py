@@ -21,7 +21,7 @@ class TestBillOfQuantities:
         df_expected = pd.DataFrame(data_expected)
         
         data_in = [["950x500-500x500-500x500"], ["450x550"], ["450x550-450x550"]]
-        data_obj = BillOfQuantities("")
+        data_obj = BillOfQuantities()
         data_obj.raw_content = pd.DataFrame(data_in, columns = ["Size"])
         df_in = BillOfQuantities.standardise_components(data_obj)
 
