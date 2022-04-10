@@ -7,7 +7,7 @@ class TestBillOfQuantities:
 
     def test_standardise_components_is_string_size_separated_into_width_and_height(self):
 
-        data_out = {"Size": ["950x500-500x500-500x500", "450x550", "450x550-450x550"],
+        data_expected = {"Size": ["950x500-500x500-500x500", "450x550", "450x550-450x550"],
                     "Size_1": ["950x500", "450x550", "450x550"],
                     "Size_2": ["500x500", None, "450x550"],
                     "Size_3": ["500x500", None, None],
@@ -18,14 +18,11 @@ class TestBillOfQuantities:
                     "Size_3_W" : [500,None,None],
                     "Size_3_H" : [500,None,None]
         }
-        df_out = pd.DataFrame(data_out)
+        df_expected = pd.DataFrame(data_expected)
         
         data_in = [["950x500-500x500-500x500"], ["450x550"], ["450x550-450x550"]]
-        df_in = pd.DataFrame(data_in, columns = ['Size'])
-        data_obj = BillOfQuantities("","")
-        data_obj.content = df_in
-        BillOfQuantities.split_size(data_obj.content)
+        data_obj = BillOfQuantities("")
+        data_obj.raw_content = pd.DataFrame(data_in, columns = ["Size"])
+        df_in = BillOfQuantities.standardise_components(data_obj)
 
-        
-
-        assert data_obj.content.equals(df_out)
+        assert df_in.equals(df_expected)

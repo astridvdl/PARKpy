@@ -10,9 +10,10 @@ class BillOfQuantities:
         self.categories = [] 
         self.section_names = []
         self.content_list = []
-        self._import_components(data_path)
+        self.data_path = data_path
 
     def run_csv_out(self):
+        self._import_components(self.data_path)
         self.standardise_components()
 
     def _import_components(self, directory):
@@ -39,6 +40,7 @@ class BillOfQuantities:
         self.raw_content[['Size_1_W', 'Size_1_H']] = self.raw_content[['Size_1_W', 'Size_1_H']].apply(pd.to_numeric)
         self.raw_content[['Size_2_W', 'Size_2_H']] = self.raw_content[['Size_2_W', 'Size_2_H']].apply(pd.to_numeric)
         self.raw_content[['Size_3_W', 'Size_3_H']] = self.raw_content[['Size_3_W', 'Size_3_H']].apply(pd.to_numeric)
+        return self.raw_content
 
     def create_boq(self, title):
         print(title)
