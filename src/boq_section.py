@@ -6,17 +6,17 @@ class BoQSection:
         self._standardise_section_components()
 
     def _standardise_section_components(self):
-        self._min_width()
-        self._min_height()
-        self._collate_quantity()
+        self.min_width()
+        self.min_height()
+        self.collate_quantity()
 
-    def _min_width(self):
+    def min_width(self):
         self.content['Min_Width'] = self.content[['Size_1_W', 'Size_2_W', "Size_3_W"]].min(axis=1)
 
-    def _min_height(self):
+    def min_height(self):
         self.content['Min_Height'] = self.content[['Size_1_H', 'Size_2_H', "Size_3_H"]].min(axis=1) 
 
-    def _collate_quantity(self):
+    def collate_quantity(self):
         self.content["Area"] = self.content["Area"].apply(lambda x: x.replace(" m²", "")
                                 if isinstance(x, str) else x).astype(float)
         self.content["Surface Area"] = self.content["Surface Area"].apply(lambda x: x.replace(" m²", "")
@@ -24,8 +24,8 @@ class BoQSection:
         self.content["Quantity"] = np.where(self.content["Area"]!=0, self.content["Area"], self.content["Surface Area"]) 
 
     def format_by(self, categories):
-        self._add_categories(categories)  
-        self._cleanup_data()
+        self.add_categories(categories)  
+        self.cleanup_data()
         category_grouped = self.content.groupby(["Category"]).sum()
         
         category_grouped["Rate"] = category_grouped.index.to_series().apply(lambda x:categories[x])
@@ -34,7 +34,7 @@ class BoQSection:
 
         self.content = category_grouped
     
-    def _add_categories(self,categories):
+    def add_categories(self,categories):
         self.content['Max_W_H'] = self.content[['Min_Width','Min_Height']].max(axis=1)
         self.content['Sum_W_H'] = self.content['Min_Width'] + self.content['Min_Height']
         conditions = [
@@ -46,7 +46,7 @@ class BoQSection:
         ]
         self.content['Category'] = np.select(conditions, categories)
 
-    def _cleanup_data(self):
+    def cleanup_data(self):
         self.content = self.content.drop([
             "Family and Type",
             "Section",
