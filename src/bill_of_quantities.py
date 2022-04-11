@@ -55,6 +55,7 @@ class BillOfQuantities:
             sorted_section = BoQSection(name,group)
             sorted_section.format_by(categories)
             self.all_sections.append(sorted_section)
+            
     
     def export_seperate_csvs(self,location):
         
@@ -72,7 +73,7 @@ class BillOfQuantities:
         excel_sheet = excel_file.sheets(sheet)
 
         sections = self.raw_content['Section'].unique()
-        print(sections)
+        print(f"\nSuccessfully Created Excel Sections for: {sections}")
 
         excel_sheet.range("A1").value = "Item,Description,Unit,Qty,Rate,Amount".split(',')
         excel_sheet.range("A2").options(transpose=True).value = [1,1.1,1.2,1.3,1.4,1.5]
@@ -94,9 +95,7 @@ class BillOfQuantities:
         self.df = self.df[self.df["Rate"].notna()]
         self.df = self.df.groupby(["Category", "Rate"]).sum(["Quantity", "Cost"]).reset_index()
         self.df = self.df[["Quantity","Rate","Cost"]]
-        #self.df =self.df.rename(columns = {"Quantity":"Qty", "Cost":"Amount"})
         self.df.insert(0,"Unit","m²")
-        print(self.df)
         return self.df
 
         
